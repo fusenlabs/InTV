@@ -1,0 +1,49 @@
+{
+  "name": "InTV",
+  "version": "0.1.0",
+  "description": "For those moments when you need TV but there is Internet",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hAPPckathon/InTV"
+  },
+  "devDependencies": {
+    "babel-core": "^5.4.5",
+    "babel-eslint": "^3.1.6",
+    "babel-loader": "^5.0.0",
+    "eslint": "^0.21.2",
+    "eslint-plugin-react": "^2.3.0",
+    "react-hot-loader": "^1.1.5",
+    "webpack": "^1.8.4",
+    "webpack-dev-server": "^1.8.0",
+    "babel-preset-es2015": "^6.1.18"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "./node_modules/.bin/webpack --config webpack.config.production.js",
+    "lint": "./node_modules/.bin/eslint ."
+  },
+  "dependencies": {
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "react-youtube": "^4.1.2",
+    "babel-runtime": "^5.1.10"
+  },
+  "keywords": [
+    "youtube",
+    "tv",
+    "music",
+    "videos",
+    "videos",
+    "channel",
+    "stream",
+    "live"
+  ],
+  "author": "@Cosmitar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hAPPckathon/InTV/issues"
+  },
+  "homepage": "https://github.com/hAPPckathon/InTV"
+}
