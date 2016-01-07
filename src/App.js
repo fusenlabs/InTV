@@ -160,7 +160,7 @@ class App extends Component {
         }
 
         /**
-        * Looks like the Toutube player support until 135 videos on an inline playlist
+        * Looks like the YouTube player support up to 135 videos on an inline playlist
         * cuts off the full day playlist to the original length
         */
         let newPlaylist = playerPlaylist.splice(0, playlist.length );
